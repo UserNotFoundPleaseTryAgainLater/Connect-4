@@ -111,6 +111,19 @@ namespace c4
             return board[row][column];
         }
 
+        int getBit(int index, Color color) const
+        {
+            switch (color)
+            {
+                case RED:
+                    return bitboardRed[index];
+                    break;
+                case YELLOW:
+                    return bitboardYellow[index];
+                    break;
+            }
+        }
+
         const std::bitset<42>& getBitboardYellow() const { return bitboardYellow; }
         const std::bitset<42>& getBitboardRed() const { return bitboardRed; }
         
