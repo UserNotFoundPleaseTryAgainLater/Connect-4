@@ -1,4 +1,4 @@
-#include "c4.hpp"
+#include "lib/c4.hpp"
 
 float[42] LookupTable = // Lookup table <- NOTE: is column-major
 [

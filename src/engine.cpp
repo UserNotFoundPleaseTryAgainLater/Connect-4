@@ -1,4 +1,4 @@
-#include "c4.hpp"
+#include "lib/c4.hpp"
 
 int NegaMax(c4::Board& board, int alpha, int beta, int depth)
 {

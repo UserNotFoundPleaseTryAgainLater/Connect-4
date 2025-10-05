@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "c4.hpp"
+#include "lib/c4.hpp"
 
 void Interface()
 {

@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++17 -Wall -I src
 TARGET = c4
 SRC = src/main.cpp src/interface.cpp src/engine.cpp src/eval.cpp
-HEADERS = src/c4.hpp src/interface.hpp src/engine.hpp src/eval.hpp
+HEADERS = lib/c4.hpp include/interface.hpp include/engine.hpp include/eval.hpp
 
 all: $(TARGET)
 
